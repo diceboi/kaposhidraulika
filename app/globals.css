@@ -3,8 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #A7A9AC;
   --foreground: #171717;
+  --yellow: #FFC742;
+  --yellowhover: #dfae3a;
+  --grey: #A7A9AC;
+  --greytext: #565656;
+  --lightgrey: #bdbfc1;
+  --green: #6BBE59;
+  --black: #231F20;
+  --white: #f6f6f6;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,7 +23,10 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+
+  font-family: Montserrat;
+}
+
+.cls-1 {
+  fill: var(--grey);
 }

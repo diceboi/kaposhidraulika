@@ -1,14 +1,13 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
+import { Toaster } from "sonner";
+import Nav from "./components/UI/Nav";
+import Footer from "./components/UI/Footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const montserrat = Montserrat({
+  subsets: ["latin"], // Specify language subsets
+  variable: "--font-montserrat", // Define a CSS variable for the font
+  weight: ["100","200","300","400","500","600","700","800","900",], // Optional: Specify font weights
 });
 
 export const metadata = {
@@ -19,10 +18,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${montserrat.variable} antialiased -mt-[124px]`}>
+        <Nav />
         {children}
+        <Footer />
+      <Toaster richColors position="bottom-center" />
       </body>
     </html>
   );
