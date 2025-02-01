@@ -58,7 +58,7 @@ export default function Rolunk() {
             </ParBig>
             <ParBig>
               Egyediségünk a gépjárművek, munkagépek szervizelésében a házhoz
-              szállásosos szervíz szolgáltatásunk, amivel a meghibásodott
+              szállásosos szerviz szolgáltatásunk, amivel a meghibásodott
               járműveket és munkagépeket a helyszínen meg tudjuk javítani,
               könnyítve ezzel a cégek működését és munkafolyamatait.
             </ParBig>

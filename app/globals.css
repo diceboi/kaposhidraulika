@@ -8,7 +8,7 @@
   --yellow: #FFC742;
   --yellowhover: #dfae3a;
   --grey: #A7A9AC;
-  --greytext: #565656;
+  --greytext: #454545;
   --lightgrey: #bdbfc1;
   --green: #6BBE59;
   --black: #231F20;
@@ -28,5 +28,5 @@ body {
 }
 
 .cls-1 {
-  fill: var(--grey);
+  fill: var(--white);
 }

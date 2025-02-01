@@ -26,7 +26,7 @@ export default function YellowCTA() {
     >
       {/* Main Button */}
       <button className="flex flex-nowrap items-center bg-[--yellow] px-4 py-1 rounded-full z-20">
-        <p className="flex flex-nowrap gap-2 items-center border-r border-[#ffdd32] my-1 pr-3"><TbPhone className="min-w-5 h-full"/>Szervíz hívása</p>
+        <p className="flex flex-nowrap gap-2 items-center border-r border-[#ffdd32] my-1 pr-3"><TbPhone className="min-w-5 h-full"/>Szerviz hívása</p>
         <div className="flex flex-col items-center justify-center min-w-8 h-full border-l border-[#bbb237] pl-3">
           <TbChevronRight className={`${open ? 'rotate-180' : ''} transition-all`}/>
         </div>
