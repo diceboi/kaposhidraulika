@@ -76,7 +76,7 @@ export default function KapcsolatForm({ sendMail }) {
                 placeholder='Üzenet'
                 id='message'
                 type='text'
-                rows={10}
+                rows={4}
                 className='py-4 px-2 rounded-lg bg-[--white] shadow-md w-full'
                 {...register('message')}
             />

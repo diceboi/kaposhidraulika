@@ -197,7 +197,7 @@ export default function HidraulikaHeroes() {
               <div className="relative flex lg:flex-row flex-col w-full items-center lg:gap-16 gap-8 p-8 rounded-3xl bg-[--yellowhover] bg-opacity-100">
                 <div className="relative lg:w-1/2 w-full lg:h-[300px] h-[150px]">
                   <Image
-                    src={"/javitas.webp"}
+                    src={"/cegesauto.svg"}
                     fill
                     alt="Munkagép javítás"
                     style={{ objectFit: "contain", objectPosition: "center" }}
@@ -237,7 +237,7 @@ export default function HidraulikaHeroes() {
                 <div className="flex lg:flex-row flex-col lg:items-center gap-4">
                   <div className="flex flex-nowrap gap-2 items-center">
                     <TbTool className="text-4xl p-1 bg-[--yellow] rounded-full" />
-                    <H3>Szervíz:</H3>
+                    <H3>Szerviz:</H3>
                   </div>
                   <div className="flex lg:flex-row flex-col lg:gap-4 gap-2">
                     <Link href="tel:06 30 939 8591">

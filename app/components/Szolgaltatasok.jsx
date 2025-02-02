@@ -32,7 +32,7 @@ export default function Szolgaltatasok() {
           <div className="flex lg:flex-row flex-col lg:items-center gap-4">
             <div className="flex flex-nowrap gap-2 items-center">
               <TbTool className="text-4xl p-1 bg-[--yellow] rounded-full"/>
-              <H3>Szervíz:</H3>
+              <H3>Szerviz:</H3>
             </div>
             <div className="flex lg:flex-row flex-col lg:gap-4 gap-2">
               <Link href='tel:06 30 939 8591'><ParBig classname={'underline'}>+36 30 939 8591</ParBig></Link>
