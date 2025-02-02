@@ -70,6 +70,15 @@ export default function Kapcsolat() {
                   </div>
                   <div className="flex flex-col gap-1">
                     <div className="flex flex-col gap-2">
+                      <Par><b>Telefon:</b></Par>
+                    </div>
+                    <div className="flex flex-col gap-0">
+                    <Par>+36 30 939 8591</Par>
+                    <Par>+36 30 302 0181</Par>
+                    </div>
+                  </div>
+                  <div className="flex flex-col gap-1">
+                    <div className="flex flex-col gap-2">
                       <Par><b>Cím:</b></Par>
                     </div>
                     <div className="flex flex-col gap-0">
@@ -82,15 +91,6 @@ export default function Kapcsolat() {
                     </div>
                     <div className="flex flex-col gap-0">
                       <Par>H-P 8:00-16:00</Par>
-                    </div>
-                  </div>
-                  <div className="flex flex-col gap-1">
-                    <div className="flex flex-col gap-2">
-                      <Par><b>Telefon:</b></Par>
-                    </div>
-                    <div className="flex flex-col gap-0">
-                    <Par>+36 30 939 8591</Par>
-                    <Par>+36 30 302 0181</Par>
                     </div>
                   </div>
                   <div className="flex flex-col gap-1">
@@ -111,6 +111,14 @@ export default function Kapcsolat() {
                   </div>
                   <div className="flex flex-col gap-1">
                     <div className="flex flex-col gap-2">
+                      <Par><b>Telefon:</b></Par>
+                    </div>
+                    <div className="flex flex-col gap-0">
+                    <Par>+36 70 616 6005</Par>
+                    </div>
+                  </div>
+                  <div className="flex flex-col gap-1">
+                    <div className="flex flex-col gap-2">
                       <Par><b>Cím:</b></Par>
                     </div>
                     <div className="flex flex-col gap-0">
@@ -124,14 +132,6 @@ export default function Kapcsolat() {
                     <div className="flex flex-col gap-0">
                       <Par>H-P 7:45-16:15</Par>
                       <Label classname={''}>munkaidő után és hétvégén ügyelet működik.</Label>
-                    </div>
-                  </div>
-                  <div className="flex flex-col gap-1">
-                    <div className="flex flex-col gap-2">
-                      <Par><b>Telefon:</b></Par>
-                    </div>
-                    <div className="flex flex-col gap-0">
-                    <Par>+36 70 616 6005</Par>
                     </div>
                   </div>
                   <div className="flex flex-col gap-1">

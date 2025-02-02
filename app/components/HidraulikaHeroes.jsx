@@ -162,7 +162,7 @@ export default function HidraulikaHeroes() {
                 </div>
               </div>
 
-              <div className="relative flex flex-col items-center justify-center gap-2 p-4 bg-[--green] bg-opacity-25 rounded-2xl z-10">
+              <div className="relative flex flex-col items-center justify-center gap-2 p-4 bg-[--green] bg-opacity-25 rounded-2xl z-10 shadow-md">
                 {/*<Image
                   src={"/hero-stand-2.svg"}
                   width={300}
@@ -194,7 +194,7 @@ export default function HidraulikaHeroes() {
           </section>
           <section className="flex flex-col gap-2 bg-gradient-to-b from-[--yellow] to-white pt-2 px-2">
             <div className="flex flex-col container m-auto items-center gap-2">
-              <div className="relative flex lg:flex-row flex-col w-full items-center lg:gap-16 gap-8 p-8 rounded-3xl bg-[--yellowhover] bg-opacity-100">
+              <div className="relative flex lg:flex-row flex-col w-full items-center lg:gap-16 gap-8 p-8 rounded-3xl bg-opacity-100">
                 <div className="relative lg:w-1/2 w-full lg:h-[300px] h-[150px]">
                   <Image
                     src={"/cegesauto.svg"}
@@ -212,7 +212,7 @@ export default function HidraulikaHeroes() {
                   </ParBig>
                 </div>
               </div>
-              <div className="relative flex lg:flex-row-reverse flex-col w-full items-center lg:gap-16 gap-8 p-8 rounded-3xl bg-[--yellowhover] bg-opacity-0">
+              <div className="relative flex lg:flex-row-reverse flex-col w-full items-center lg:gap-16 gap-8 p-8 rounded-3xl bg-opacity-0">
                 <div className="relative lg:w-1/2 w-full lg:h-[300px] h-[150px]">
                   <Image
                     src={"/roppanto.webp"}
@@ -231,7 +231,7 @@ export default function HidraulikaHeroes() {
               </div>
             </div>
 
-            <div className="flex flex-col container m-auto mb-2 lg:gap-16 gap-8 justify-center w-full bg-[--green] rounded-3xl lg:p-8 p-4 px-2">
+            <div className="flex flex-col container m-auto mb-2 lg:gap-16 gap-8 justify-center w-full bg-[--green] rounded-3xl lg:p-8 p-4 px-2 shadow-md">
               <H2 classname={"w-fit self-center"}>Hívj hőst!</H2>
               <div className="flex lg:flex-row flex-col lg:gap-16 gap-8 justify-center self-center">
                 <div className="flex lg:flex-row flex-col lg:items-center gap-4">
