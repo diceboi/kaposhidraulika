@@ -1,4 +1,6 @@
 import { Montserrat } from "next/font/google";
+import { GeistSans } from 'geist/font/sans'
+import { GeistMono } from 'geist/font/mono'
 import "./globals.css";
 import { Toaster } from "sonner";
 import Nav from "./components/UI/Nav";
@@ -18,7 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${montserrat.variable} antialiased -mt-[124px]`}>
+      <body className={`${montserrat.variable} ${GeistSans.variable} ${GeistMono.variable} antialiased -mt-[124px]`}>
         <Nav />
         {children}
         <Footer />

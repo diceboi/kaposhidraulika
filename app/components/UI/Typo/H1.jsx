@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function H1({ children, classname }) {
   return (
-    <h1 className={`lg:text-6xl md:text-5xl sm:text-4xl text-3xl font-extrabold tracking-tighter ${classname}`}>
+    <h1 className={`md:text-[4vw] md:leading-[4vw] text-3xl leading-7 font-black tracking-tighter ${classname} z-10`}>
         {children}
     </h1>
   )

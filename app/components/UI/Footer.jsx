@@ -24,8 +24,8 @@ import ParBig from "./Typo/ParBig";
 export default function Footer() {
 
   return (
-      <section className="bg-[--grey] lg:pt-20 pt-20 px-4 pb-4">
-        <div className="flex flex-col gap-4 lg:p-8 p-4 bg-[--black] rounded-lg">
+      <section className="bg-[--grey] lg:pt-20 pt-20 px-2 pb-2">
+        <div className="flex flex-col gap-4 lg:p-8 p-4 bg-[--black] rounded-3xl">
           <div className="grid lg:grid-cols-3 grid-cols-1 lg:gap-16 gap-8">
             <div className="flex flex-col justify-between gap-4">
                 <div className="flex flex-col gap-8">
@@ -36,7 +36,7 @@ export default function Footer() {
                         alt="logo"
                     />
                     <div className="flex flex-nowrap gap-2">
-                        <TbBrandFacebookFilled className="text-[--grey] min-w-8 h-auto border-2 border-[--grey] rounded-sm p-1"/>
+                        <Link href='https://www.facebook.com/profile.php?id=100063761670146' target="__blank"><TbBrandFacebookFilled className="text-[--grey] min-w-8 h-auto border-2 border-[--grey] rounded-sm p-1"/></Link>
                     </div>
                  </div>
               <Label classname={"text-[--grey]"}>
@@ -46,7 +46,7 @@ export default function Footer() {
 
             <div className="flex flex-col gap-8">
               <div className="flex flex-nowrap gap-2 items-center">
-                <H4 classname={"text-[--yellow]"}>Üzlet</H4>
+                <H3 classname={"text-[--yellow]"}>Üzlet</H3>
               </div>
               <div className="flex flex-col gap-2 text-[--grey]">
                 <div className="flex flex-nowrap gap-2">
@@ -80,7 +80,7 @@ export default function Footer() {
 
             <div className="flex flex-col gap-8">
               <div className="flex flex-nowrap gap-2 items-center">
-                <H4 classname={"text-[--yellow]"}>Szerelőműhely</H4>
+                <H3 classname={"text-[--yellow]"}>Szerelőműhely</H3>
               </div>
               <div className="flex flex-col gap-2 text-[--grey]">
                 <div className="flex flex-nowrap gap-2">

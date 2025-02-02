@@ -6,11 +6,12 @@
   --background: #A7A9AC;
   --foreground: #171717;
   --yellow: #FFC742;
-  --yellowhover: #dfae3a;
+  --yellowhover: #ffd471;
   --grey: #A7A9AC;
   --greytext: #454545;
-  --lightgrey: #bdbfc1;
+  --lightgrey: #ced0d1;
   --green: #6BBE59;
+  --green-10: #6bbe5930;
   --black: #231F20;
   --white: #f6f6f6;
 }
@@ -23,8 +24,7 @@
 }
 
 body {
-
-  font-family: Montserrat;
+  font-family: var(--font-geist-sans);
 }
 
 .cls-1 {

@@ -10,10 +10,10 @@ import GaleriaTile from "./UI/GaleriaTile";
 export default function Partnerek() {
 
   return (
-    <section className=" bg-gradient-to-b from-[--white] to-[--grey] lg:pt-20 pt-8">
-      <div className="flex flex-col gap-4 p-4">
+    <section className=" bg-gradient-to-b from-[--white] to-[--grey] lg:pt-16 pt-8" id="partnerek">
+      <div className="flex flex-col gap-4 px-2">
         <H1>Partnerek</H1>
-        <div className="flex lg:flex-row flex-col gap-4 justify-evenly items-center bg-white lg:p-8 p-2 rounded-lg shadow-md
+        <div className="flex lg:flex-row flex-col gap-4 justify-evenly items-center bg-white lg:p-8 p-2 rounded-3xl shadow-md
         ">
             <div className="flex flex-col items-center justify-center relative w-[150px] h-[150px]">
                 <Image src={'/exor_logo_png.png'} fill alt="Exor logo" style={{ objectFit: 'contain', objectPosition: 'center' }} />

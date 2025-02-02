@@ -8,12 +8,12 @@ import Image from "next/image";
 
 export default function Rolunk() {
   return (
-    <section className="bg-gradient-to-b from-[--white] to-[--grey] px-4 lg:pt-20 pt-8">
+    <section className="lg:pt-16 pt-8 m-2" id="rolunk">
       <div className="flex flex-col gap-4">
         <H1 classname={""}>Rólunk</H1>
-        <div className="relative flex lg:flex-row flex-col justify-center gap-4 rounded-lg lg:p-8 p-4">
+        <div className="relative flex lg:flex-row flex-col justify-center bg-gradient-to-b from-[--white] to-[--grey] gap-4 rounded-3xl lg:p-8 p-4">
           <div
-            className="absolute inset-0 pointer-events-none"
+            className="absolute inset-1 pointer-events-none"
             style={{
               backgroundImage: `radial-gradient(circle, var(--grey) 2px, transparent 1px)`,
               backgroundSize: "15px 15px",
@@ -32,15 +32,15 @@ export default function Rolunk() {
               />
             </div>
             <div className="flex flex-col gap-2 lg:w-8/12 w-full">
-              <H4 classname={"text-center"}>
+              <H3 classname={"text-center"}>
               Markó Szilárd vagyok,
-              </H4>
+              </H3>
               <ParBig classname={'text-center'}>a Szilutech Agro Kft - Kapos Hidraulika
               tulajdonosa és ügyvezetője.</ParBig>
             </div>
             
           </div>
-          <div className="flex flex-col gap-4 lg:p-8 p-2 bg-white rounded-lg items-start lg:w-6/12 w-full shadow-md z-10">
+          <div className="flex flex-col gap-4 lg:p-8 p-2 bg-white rounded-2xl items-start lg:w-6/12 w-full shadow-md z-10">
             <ParBig>
               Cégünk 2010-ben kezdte tevékenységét, röpke két év alatt kinőve
               magát megalakult a ma már Kaposvár és környékén jól ismert

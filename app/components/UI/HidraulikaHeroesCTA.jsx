@@ -7,20 +7,20 @@ import Link from "next/link";
 
 export default function HidraulikaHeroesCTA() {
   return (
-    <button href="#hidraulikaheroes" className="relative flex flex-nowrap gap-2 bg-[--yellow] rounded-lg shadow-md p-2 overflow-hidden z-10 w-full">
+    <button href="#hidraulikaheroes" className="relative flex flex-nowrap gap-2 bg-[--yellow] rounded-xl shadow-md p-2 overflow-hidden z-10 w-full">
       {/* Background animation */}
       
 
       {/* Text */}
       <div className="flex flex-col gap-2 relative z-10">
-        <p className="text-lg font-bold leading-5 text-left">Az úton<br></br> maradtál?</p>
+        <p className="text-lg font-bold leading-5 text-left">Lerobbantál?</p>
         <p className="text-lg font-bold leading-5 bg-white p-1 w-fit rounded-md uppercase">Hívj hőst!</p>
       </div>
 
       {/* Flying Hero */}
       <div className="absolute top-0 right-0 flex flex-col gap-2 items-center z-10 w-1/2">
         <motion.div 
-          animate={{ y: ["-20px", "0px", "-20px"], rotate: [5, 10, 5] }} 
+          animate={{ y: ["-20px", "0px", "-20px"], rotate: [5, 7, 5] }} 
           transition={{
             duration: 2,
             ease: "easeInOut",

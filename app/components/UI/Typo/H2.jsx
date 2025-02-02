@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function H2({ children, classname }) {
   return (
-    <h1 className={`lg:text-4xl md:text-3xl sm:text-2xl text-xl font-extrabold tracking-tight ${classname}`}>
+    <h2 className={`md:text-[3vw] md:leading-[3vw] text-2xl leading-6 font-extrabold tracking-tighter ${classname} z-10`}>
         {children}
-    </h1>
+    </h2>
   )
 }

@@ -14,7 +14,6 @@ export default function Home() {
     <Szolgaltatasok />
     <HidraulikaHeroes />
     <Rolunk />
-    <Munkatarsak />
     <Kapcsolat />
     <Galeria />
     <Partnerek />
