@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import Image from "next/image";
 import React from "react";
@@ -7,33 +7,59 @@ import Link from "next/link";
 
 export default function HidraulikaHeroesCTA() {
   return (
-    <button href="#hidraulikaheroes" className="relative flex flex-nowrap gap-2 bg-[--yellow] rounded-xl shadow-md p-2 overflow-hidden z-10 w-full">
-      {/* Background animation */}
-      
+    <>
+      <a href="#hidraulikaheroes" className="relative">
+        <button
+          
+          className="relative flex flex-nowrap gap-2 bg-[--yellow] rounded-xl shadow-md p-2 overflow-hidden z-10 w-full"
+        >
+          {/* Background animation */}
 
-      {/* Text */}
-      <div className="flex flex-col gap-2 relative z-10">
-        <p className="text-lg font-bold leading-5 text-left">Lerobbantál?</p>
-        <p className="text-lg font-bold leading-5 bg-white p-1 w-fit rounded-md uppercase">Hívj hőst!</p>
-      </div>
+          {/* Text */}
+          <div className="flex flex-col gap-2 relative z-10">
+            <p className="text-lg font-bold leading-5 text-left">
+              Lerobbantál?
+            </p>
+            <p className="text-lg font-bold leading-5 bg-white p-1 w-fit rounded-md uppercase">
+              Hívj hőst!
+            </p>
+          </div>
 
-      {/* Flying Hero */}
-      <div className="absolute top-0 right-0 flex flex-col gap-2 items-center z-10 w-1/2">
-        <motion.div 
-          animate={{ y: ["-20px", "0px", "-20px"], rotate: [5, 7, 5] }} 
+          {/* Flying Hero */}
+          <div className="absolute top-0 right-0 flex flex-col gap-2 items-center z-10 w-1/2">
+            <motion.div
+              animate={{ y: ["-20px", "0px", "-20px"], rotate: [5, 7, 5] }}
+              transition={{
+                duration: 2,
+                ease: "easeInOut",
+                repeat: Infinity,
+              }}
+              className="relative w-[300px] h-[75px] pointer-events-none"
+            >
+              <Image
+                src="/hero-fly.svg"
+                fill
+                alt="Repülő hős"
+                style={{ objectFit: "contain" }}
+                className=" scale-x-[-1]"
+              />
+            </motion.div>
+          </div>
+          {/* Sparkles Animation */}
+          <Sparkles />
+        </button>
+
+        <motion.div
+          animate={{ scaleX: [1, 1.1], scaleY: [1, 1.3], opacity: [0, .6, 0] }}
           transition={{
-            duration: 2,
-            ease: "easeInOut",
+            duration: 1,
+            ease: "easeOut",
             repeat: Infinity,
           }}
-          className="relative w-[300px] h-[75px] pointer-events-none"
-        >
-          <Image src="/hero-fly.svg" fill alt="Repülő hős" style={{ objectFit: 'contain' }} className=" scale-x-[-1]"/>
-        </motion.div>
-      </div>
-      {/* Sparkles Animation */}
-      <Sparkles />
-    </button>
+          className="absolute top-0 left-0 w-full h-full bg-[--yellow] rounded-2xl z-0"
+        ></motion.div>
+      </a>
+    </>
   );
 }
 

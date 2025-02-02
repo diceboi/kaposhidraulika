@@ -16,12 +16,12 @@ export default function SzolgaltatasInner({ image, title, l1, l2, l3, l4, l5, l6
 
   return (
     <motion.div
-      className="relative flex flex-col justify-end w-full lg:h-[60vh] h-[300px] rounded-3xl overflow-hidden lg:p-8 p-2 cursor-pointer group"
+      className="relative flex flex-col justify-end w-full lg:h-[60vh] h-[400px] rounded-3xl overflow-hidden lg:p-8 p-2 cursor-pointer group"
       initial="initial"
       whileHover="hover" // Applies hover effect to child elements
     >
       {/* Background gradient */}
-      <div className="absolute bottom-0 left-0 bg-gradient-to-t from-[--black] to-[#00000000] transition-all w-full h-5/6 z-10"></div>
+      <div className="absolute bottom-0 left-0 bg-gradient-to-t from-[--black] to-[#00000000] transition-all w-full h-full z-10"></div>
 
       {/* Image with zoom effect */}
       <motion.div

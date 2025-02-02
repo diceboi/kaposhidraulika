@@ -21,7 +21,7 @@ export default function Hero() {
         <div className="relative flex flex-col justify-center gap-8 lg:h-[90vh] h-[90vh] px-4 pt-20 bg-[--lightgrey] lg:rounded-s-3xl rounded-3xl lg:w-2/3 w-full">
           <div className="flex flex-nowrap items-center gap-2 z-10 bg-white bg-opacity-25  pr-2 rounded-full w-fit shadow-md backdrop-blur-sm">
             <TbMapPin className="text-[--green] lg:min-w-8 min-w-6 lg:min-h-8 min-h-6 bg-white rounded-full p-1"/>
-            <Label classname={'text-black'}><span className="font-black">Somogy, Tolna, Baranya</span> megyékben</Label>
+            <Label classname={'text-black'}><span className="font-black">Somogy, Tolna, Baranya, Zala</span> megyékben</Label>
           </div>
           <H1 className="">
             Elromlott? Dőlj hátra!<br></br> Házhoz megyünk, megjavítjuk.
@@ -58,8 +58,8 @@ export default function Hero() {
           className="hidden lg:flex w-auto h-[80vh] ml-[-5px] z-10"
         />*/}
         <div className="relative hidden lg:block bg-gradient-to-br from-white to-[--yellow] h-[90vh] w-1/3 right-0 rounded-3xl">
-          <Image src='/tractor.webp' fill style={{ objectFit: 'cover', objectPosition: '50% 50%' }} alt="Szerelés" className="mix-blend-multiply rounded-3xl" />
-          <div className="absolute right-8 bottom-8 w-2/3 h-auto">
+          <Image src='/kamion.webp' fill style={{ objectFit: 'cover' }} alt="Szerelés" className="rounded-3xl" />
+          <div className="absolute right-8 bottom-8 w-2/3 max-w-[350px] h-auto">
             <HidraulikaHeroesCTA />
           </div>
         </div>

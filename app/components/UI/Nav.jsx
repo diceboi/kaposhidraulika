@@ -109,9 +109,10 @@ export default function Nav() {
 
                 <motion.div 
                     layout
+                    initial={{ height: '60px' }}
                     animate={{ height: mobileMenu ? '340px' : '60px' }}
                     transition={{ ease: 'easeInOut', duration: 0.4, type: 'spring', bounce: 0.2 }}
-                    className='absolute top-0 left-0 flex flex-col items-center justify-center w-full rounded-3xl h-[400px] bg-[--yellow] z-[1] shadow-md'
+                    className='flex lg:hidden absolute top-0 left-0 flex-col items-center justify-center w-full rounded-3xl h-[400px] bg-[--yellow] z-[1] shadow-md'
                 >
                     <motion.ul
                         initial={{ opacity: 0 }}

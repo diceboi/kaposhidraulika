@@ -41,32 +41,32 @@ export default function Rolunk() {
             
           </div>
           <div className="flex flex-col gap-4 lg:p-8 p-2 bg-white rounded-2xl items-start lg:w-6/12 w-full shadow-md z-10">
-            <ParBig>
+            <Par>
               Cégünk 2010-ben kezdte tevékenységét, röpke két év alatt kinőve
               magát megalakult a ma már Kaposvár és környékén jól ismert
               Szilutech Agro Kft.
-            </ParBig>
-            <ParBig>
+            </Par>
+            <Par>
               2023-ban bővült a profilunk a Kapos Hidraulika Kft.
               megvásárlásával, ezáltal hidraulika csövek roppantásával,
               munkahengerek javításával és pneumatikai szolgáltatásokkal bővült
               cégünk.
-            </ParBig>
-            <ParBig>
+            </Par>
+            <Par>
               Elsősorban tehergépkocsik, építő és mezőgazdasági erő és
               munkagépek javításával, szerelésével foglalkozunk.
-            </ParBig>
-            <ParBig>
+            </Par>
+            <Par>
               Egyediségünk a gépjárművek, munkagépek szervizelésében a házhoz
               szállásosos szerviz szolgáltatásunk, amivel a meghibásodott
               járműveket és munkagépeket a helyszínen meg tudjuk javítani,
               könnyítve ezzel a cégek működését és munkafolyamatait.
-            </ParBig>
-            <ParBig>
+            </Par>
+            <Par>
               Kaposváron Füredi úti üzletünk a hidraulika és pneumatikára
               szakosodva áll rendelkezésre, szerelőműhelyünk Simonfán üzemel
               minden további szolgáltatásunkat biztosítva.
-            </ParBig>
+            </Par>
           </div>
         </div>
       </div>

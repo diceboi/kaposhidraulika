@@ -81,7 +81,6 @@ export default function Munkatarsak() {
                   alt={`Galéria kép ${index + 1}`}
                   layout="fill"
                   objectFit="cover"
-                  className="rounded-3xl"
                 />
               </div>
             </SwiperSlide>

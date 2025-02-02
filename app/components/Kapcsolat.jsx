@@ -61,38 +61,92 @@ export default function Kapcsolat() {
             <div className="relative w-full lg:h-full h-[20vh] overflow-hidden rounded-2xl">
               <Image src={'/szereles.webp'} fill style={{ objectFit: 'cover', objectPosition: '50% 50%' }}/>
             </div>
-            <div className="flex flex-col w-full h-auto gap-4 self-end">
-              <div className="grid lg:grid-cols-4 grid-cols-1 gap-4">
-                <Par classname={"flex flex-col lg:gap-4 gap-1"}>
-                  <b className="flex flex-nowrap gap-1 items-center">
-                    <TbMapPin className="text-white"/> Cím:
-                  </b>{" "}
-                  <Par classname={'ml-6'}>7400 Kaposvár Füredi út 153</Par>
-                </Par>
-                <div className="space-y-0">
-                  <Par classname={"flex flex-col gap-2"}>
-                    <b className="flex flex-nowrap gap-1 items-center">
-                      <TbClock className="text-white"/> Nyitvatartás:
-                    </b>{" "}
-                    <Par classname={'ml-6'}>H-P 7:45-16:15</Par>
-                    
-                  </Par>
-                  <Label classname={'ml-6'}>munkaidő után és hétvégén ügyelet működik.</Label>
+            <div className="flex flex-col w-full h-auto gap-8 self-end">
+
+              <div className="flex lg:flex-row flex-col justify-between gap-8">
+                <div className="flex flex-col gap-4 min-w-fit">
+                  <div className="flex flex-row gap-2 items-center">
+                    <TbMapPin className="text-4xl p-1 bg-[--yellow] rounded-full"/>
+                    <H4>Cím</H4>
+                  </div>
+                  <div className="flex flex-col gap-1">
+                    <div className="flex flex-col gap-2">
+                      <Par><b>Szervíz:</b></Par>
+                    </div>
+                    <div className="flex flex-col gap-0">
+                      <Par>7400 Kaposvár Füredi út 153</Par>
+                    </div>
+                  </div>
+                  <div className="flex flex-col gap-1">
+                    <div className="flex flex-col gap-2">
+                      <Par><b>Üzlet:</b></Par>
+                    </div>
+                    <div className="flex flex-col gap-0">
+                      <Par>7474 Simonfa Ipartelep 2.</Par>
+                    </div>
+                  </div>
                 </div>
-                <Par classname={"flex flex-col lg:gap-2 gap-1"}>
-                  <b className="flex flex-nowrap gap-1 items-center ">
-                    <TbMail className="text-white"/> E-mail cím:
-                  </b>{" "}
-                  <Par classname={'ml-6'}>info@kaposhidraulika.hu</Par>
-                </Par>
-                <Par classname={"flex flex-col lg:gap-2 gap-1"}>
-                  <b className="flex flex-nowrap gap-1 items-center ">
-                    <TbPhone className="text-white"/> Telefon:
-                  </b>{" "}
-                  <Par classname={'ml-6'}>06 30 939 8591</Par>
-                  <Par classname={'ml-6'}>06 30 302 0181</Par>
-                </Par>
+
+                <div className="flex flex-col gap-4 w-auto">
+                  <div className="flex flex-row gap-2 items-center">
+                    <TbClock className="text-4xl p-1 bg-[--yellow] rounded-full"/>
+                    <H4>Nyitvatartás:</H4>
+                  </div>
+
+
+                  <div className="flex flex-col gap-1">
+                    <div className="flex flex-col gap-2">
+                      <Par><b>Szervíz:</b></Par>
+                    </div>
+                    <div className="flex flex-col gap-0">
+                      <Par>H-P 8:00-16:00</Par>
+                    </div>
+                  </div>
+                  <div className="flex flex-col gap-1">
+                    <div className="flex flex-col gap-2">
+                      <Par><b>Üzlet:</b></Par>
+                    </div>
+                    <div className="flex flex-col gap-0">
+                      <Par>H-P 7:45-16:15</Par>
+                      <Label classname={''}>munkaidő után és hétvégén ügyelet működik.</Label>
+                    </div>
+                  </div>
+                  
+                </div>
+
+                <div className="flex flex-col gap-4 w-auto">
+                  <div className="flex flex-row gap-2 items-center">
+                    <TbMail className="text-4xl p-1 bg-[--yellow] rounded-full"/>
+                    <H4>E-mail:</H4>
+                  </div>
+                  <Par>info@kaposhidraulika.hu</Par>
+                </div>
+
+                <div className="flex flex-col gap-4 min-w-fit">
+                  <div className="flex flex-row gap-2 items-center">
+                    <TbPhone className="text-4xl p-1 bg-[--yellow] rounded-full"/>
+                    <H4>Telefon:</H4>
+                  </div>
+                  <div className="flex flex-col gap-1">
+                    <div className="flex flex-col gap-2">
+                      <Par><b>Szervíz:</b></Par>
+                    </div>
+                    <div className="flex flex-col gap-0">
+                      <Par>+36 30 939 8591</Par>
+                      <Par>+36 30 302 0181</Par>
+                    </div>
+                  </div>
+                  <div className="flex flex-col gap-1">
+                    <div className="flex flex-col gap-2">
+                      <Par><b>Üzlet:</b></Par>
+                    </div>
+                    <div className="flex flex-col gap-0">
+                      <Par>+36 70 616 6005</Par>
+                    </div>
+                  </div>
+                </div>
               </div>
+
             </div>
           </div>
 
