@@ -88,7 +88,7 @@ export default function Footer() {
                     <ParBig>Nyitvatartás:</ParBig>
                 </div>
                 <div className="space-y-2 ml-8">
-                    <Par>H-P 8:00-17:00</Par>
+                    <Par>H-P 8:00-16:00</Par>
                     <Label>munkaidő után és hétvégén ügyelet működik</Label>
                 </div>
               </div>
