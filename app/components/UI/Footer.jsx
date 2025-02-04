@@ -55,6 +55,7 @@ export default function Footer() {
                 </div>
                 <div className="space-y-2 ml-8">
                     <Par>H-P 7:45-16:15</Par>
+                    <Label>munkaidő után és hétvégén ügyelet működik</Label>
                 </div>
               </div>
               <div className="flex flex-col gap-2 text-[--grey]">
@@ -89,7 +90,6 @@ export default function Footer() {
                 </div>
                 <div className="space-y-2 ml-8">
                     <Par>H-P 8:00-16:00</Par>
-                    <Label>munkaidő után és hétvégén ügyelet működik</Label>
                 </div>
               </div>
               <div className="flex flex-col gap-2 text-[--grey]">

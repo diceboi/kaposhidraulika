@@ -39,7 +39,7 @@ export default function HidraulikaHeroes() {
           <section className="relative flex flex-col gap-4 px-4 pb-16 items-center justify-center overflow-hidden bg-gradient-to-b from-[--white] to-[--yellow]">
             <H1 classname={"mt-4 z-30"}>Hidraulika Heroes</H1>
             <div className="container m-auto relative flex flex-col gap-8 items-center justify-center z-10">
-              <div className="relative lg:w-1/2 w-full lg:h-[50vh] h-[40vh]">
+              <div className="relative lg:w-1/2 w-full lg:h-[350px] h-[40vh]">
                 <motion.img
                   src="/cloud1.webp"
                   alt="Cloud"
@@ -83,26 +83,6 @@ export default function HidraulikaHeroes() {
                 </Par>
               </div>
             </div>
-
-            {/* Flying Image */}
-            <motion.img
-              src="/hero-fly.svg"
-              alt="Hero flying"
-              className="absolute top-1/4 left-0 w-72 h-auto mix-blend-multiply blur-sm"
-              initial={{ x: 0, opacity: 0 }} // Start at the viewport's left edge
-              whileInView={{ x: "300vw", opacity: 1 }} // Fly completely off the right side
-              transition={{ duration: 2, ease: "easeOut", delay: 1 }} // Smooth animation
-              viewport={{ once: true, amount: 0.4 }} // Trigger when 10% of the section is visible
-            />
-            <motion.img
-              src="/hero-fly.svg"
-              alt="Hero flying"
-              className="absolute top-1/2 right-0 w-96 h-auto mix-blend-multiply"
-              initial={{ x: "0vw", opacity: 0, scaleX: -1 }} // Start at the viewport's left edge
-              whileInView={{ x: "-300vw", opacity: 1, scaleX: -1 }} // Fly completely off the right side
-              transition={{ duration: 2, ease: "easeOut", delay: 0.5 }} // Smooth animation
-              viewport={{ once: true, amount: 0 }} // Trigger when 10% of the section is visible
-            />
           </section>
           <section className="flex flex-col gap-4 bg-[--yellow] px-2">
             <div className="flex flex-col gap-8 container m-auto bg-[--yellowhover] rounded-3xl p-8">
@@ -206,9 +186,7 @@ export default function HidraulikaHeroes() {
                 <div className="flex flex-col gap-8 lg:w-1/2 w-full">
                   <H2 classname={"text-[--black]"}>Helyszíni szervizelés</H2>
                   <ParBig classname={"z-10"}>
-                    Hidraulika hőseink munkagépek, tehergépkocsik teljes körű
-                    javítását és szervizelését a helyszínen elvégzik - Somogy,
-                    Tolna, Baranya és Zala megyében!
+                    Hidraulika hőseink munkagépek, tehergépkocsik teljes körű javítását és szervizelését a helyszínen elvégzik - házhoz megyünk Somogy, Tolna, Baranya és Zala megyében!
                   </ParBig>
                 </div>
               </div>
