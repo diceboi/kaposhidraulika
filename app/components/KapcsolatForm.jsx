@@ -5,6 +5,7 @@ import { useForm } from 'react-hook-form'
 import mailFormSchema from '../utils/validation/main-form'
 import { zodResolver } from "@hookform/resolvers/zod";
 import { toast } from 'sonner';
+import ContactFormButton from './UI/Buttons/ContactFormButton';
 
 export default function KapcsolatForm({ sendMail }) {
 
@@ -100,7 +101,7 @@ export default function KapcsolatForm({ sendMail }) {
         </div>
         {errors.acceptance && <span className='text-red-500'>{errors.acceptance.message}</span>}
         <div className='flex flex-col items-center'>
-            <MainButtonYellow>{isSubmitting ? 'Küldés...' : 'Küldés'}</MainButtonYellow>
+            <ContactFormButton>{isSubmitting ? 'Küldés...' : 'Küldés'}</ContactFormButton>
         </div>
     </form>
   )
