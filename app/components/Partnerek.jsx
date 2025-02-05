@@ -6,6 +6,7 @@ import "yet-another-react-lightbox/styles.css"; // Import lightbox styles
 import Image from "next/image";
 import H1 from "./UI/Typo/H1";
 import GaleriaTile from "./UI/GaleriaTile";
+import Link from "next/link";
 
 export default function Partnerek() {
 
@@ -15,15 +16,18 @@ export default function Partnerek() {
         <H1>Partnerek</H1>
         <div className="flex lg:flex-row flex-col gap-4 justify-evenly items-center bg-white lg:p-8 p-2 rounded-3xl shadow-md
         ">
-            <div className="flex flex-col items-center justify-center relative w-[150px] h-[150px]">
+            <Link href="https://exor.hu/" target="__blank" className="flex flex-col items-center justify-center relative w-[150px] h-[150px]">
                 <Image src={'/exor_logo_png.png'} fill alt="Exor logo" style={{ objectFit: 'contain', objectPosition: 'center' }} />
-            </div>
-            <div className="relative w-[150px] h-[150px]">
-                <Image src={'/KHGlogo.svg'} fill alt="Exor logo" style={{ objectFit: 'contain', objectPosition: 'center' }} />
-            </div>
-            <div className="relative w-[150px] h-[150px]">
-                <Image src={'/Wolf_System_Logo.svg.png'} fill alt="Exor logo" style={{ objectFit: 'contain', objectPosition: 'center' }} />
-            </div>
+            </Link>
+            <Link href="https://www.khg.hu/" target="__blank" className="relative w-[150px] h-[150px]">
+                <Image src={'/KHGlogo.svg'} fill alt="KHG logo" style={{ objectFit: 'contain', objectPosition: 'center' }} />
+            </Link>
+            <Link href="https://www.wolfsystem.hu/" target="__blank" className="relative w-[150px] h-[150px]">
+                <Image src={'/Wolf_System_Logo.svg.png'} fill alt="Wolf systems logo" style={{ objectFit: 'contain', objectPosition: 'center' }} />
+            </Link>
+            <Link href="https://botkatrans.hu/" target="__blank" className="relative w-[150px] h-[150px]">
+                <Image src={'/botka-trans.png'} fill alt="Botka trans logo" style={{ objectFit: 'contain', objectPosition: 'center' }} />
+            </Link>
         </div>
       </div>
     </section>

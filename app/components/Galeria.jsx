@@ -33,6 +33,12 @@ export default function Munkatarsak() {
     "/galeria13.webp",
     "/galeria14.webp",
     "/galeria15.webp",
+    "/galeria16.webp",
+    "/galeria17.webp",
+    "/galeria18.webp",
+    "/galeria19.webp",
+    "/galeria20.webp",
+    "/galeria21.webp",
   ];
 
   // Open Lightbox when clicking an image

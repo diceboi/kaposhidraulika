@@ -27,7 +27,7 @@ export default function Hero() {
             Elromlott? Dőlj hátra!<br></br> Házhoz megyünk, megjavítjuk.
           </H1>
           <H3 classname={"text-left z-10 text-[--greytext]"}>
-            Gépjárművek, munkagépek szervizelése helyszínen
+            Nagy haszongépjárművek, munkagépek szervizelése helyszínen
           </H3>
           
           <div className="flex flex-col lg:flex-row gap-2">
