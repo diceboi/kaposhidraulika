@@ -28,6 +28,9 @@ export default function Partnerek() {
             <Link href="https://botkatrans.hu/" target="__blank" className="relative w-[150px] h-[150px]">
                 <Image src={'/botka-trans.png'} fill alt="Botka trans logo" style={{ objectFit: 'contain', objectPosition: 'center' }} />
             </Link>
+            <Link href="https://otolecz.hu/" target="__blank" className="relative w-[150px] h-[150px]">
+                <Image src={'/OTOL. logo hosszu.jpg'} fill alt="Otolec transzportbeton logo" style={{ objectFit: 'contain', objectPosition: 'center' }} />
+            </Link>
         </div>
       </div>
     </section>

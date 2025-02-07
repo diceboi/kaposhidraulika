@@ -8,10 +8,10 @@ import Image from "next/image";
 
 export default function Rolunk() {
   return (
-    <section className="lg:pt-16 pt-8 m-2 overflow-hidden" id="rolunk">
+    <section className="lg:pt-16 pt-8 m-2" id="rolunk">
       <div className="flex flex-col gap-4">
         <H1 classname={""}>Rólunk</H1>
-        <div className="relative flex lg:flex-row flex-col lg:justify-center bg-gradient-to-b from-[--white] to-[--grey] rounded-3xl lg:p-8 p-4 lg:min-h-[500px]">
+        <div className="relative flex lg:flex-row flex-col justify-center bg-gradient-to-b from-[--white] to-[--grey] gap-4 rounded-3xl lg:p-8 p-4">
           <div
             className="absolute inset-1 pointer-events-none"
             style={{
@@ -22,25 +22,25 @@ export default function Rolunk() {
             }}
           ></div>
 
-          <div className="relative flex lg:flex-col flex-row justify-center items-center lg:w-3/12 w-full lg:-mr-[10vw] lg:-mb-0 -mb-[100px] z-10">
-            <div className="flex flex-col min-w-[300px] lg:h-[200px] h-[250px] lg:-mr-0 -mr-[50px] -rotate-6 overflow-hidden shadow-md">
+          <div className="flex flex-col gap-4 items-center lg:w-3/12 w-full -mr-[5vw] z-10">
+            <div className="flex flex-col relative lg:w-[200px] w-[200px] lg:h-[200px] h-[200px] rounded-full overflow-hidden border-2 border-[--yellow] shadow-md">
               <Image
-                src={"/bolt.webp"}
+                src={"/szilard.webp"}
                 fill
-                alt="Kaposhidraulika bolt"
+                alt="Markó Szilárd"
                 style={{ objectFit: "cover", objectPosition: "10% 0%" }}
               />
-            </div> 
-            <div className="flex flex-col min-w-[300px] lg:h-[200px] h-[250px] lg:-mr-0 -ml-[50px]  -mt-[50px] rotate-12 overflow-hidden shadow-md">
-              <Image
-                src={"/bolt2.webp"}
-                fill
-                alt="Kaposhidraulika bolt"
-                style={{ objectFit: "cover", objectPosition: "10% 0%" }}
-              />
-            </div>          
+            </div>
+            <div className="flex flex-col gap-2 lg:w-8/12 w-full">
+              <H3 classname={"text-center"}>
+              Markó Szilárd vagyok,
+              </H3>
+              <ParBig classname={'text-center'}>a Szilutech Agro Kft - Kapos Hidraulika
+              tulajdonosa és ügyvezetője.</ParBig>
+            </div>
+            
           </div>
-          <div className="flex flex-col gap-4 lg:p-8 p-2 bg-white rounded-2xl items-start lg:w-6/12 w-full lg:mt-0 shadow-md z-10">
+          <div className="flex flex-col gap-4 lg:p-8 p-2 bg-white rounded-2xl items-start lg:w-6/12 w-full shadow-md z-10">
             <Par>
               Cégünk 2010-ben kezdte tevékenységét, röpke két év alatt kinőve
               magát megalakult a ma már Kaposvár és környékén jól ismert
