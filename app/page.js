@@ -16,7 +16,7 @@ export async function generateMetadata() {
     },
     openGraph: {
       title: "Kapos Hidraulika - Szilutech Agro Kft.",
-      description: "Hidraulika szervíz, javítás Somogy, Tolna, Baranya, Zala megyékben.",
+      description: "Tehergépkocsi, Kamion és Munkagép szerviz Somogy, Tolna, Baranya, és Zala megyékben.",
       images: [
         {
           url: "https://www.kaposhidraulika.hu/ogimage.png",
