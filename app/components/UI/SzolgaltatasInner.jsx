@@ -2,12 +2,14 @@
 
 import Image from "next/image";
 import H3 from "./Typo/H3";
+import H4 from "./Typo/H4";
 import H2 from "./Typo/H2";
 import { motion } from "framer-motion";
 import Par from "./Typo/Par";
 import AjanlatkeresButton from "./Buttons/AjanlatkeresButton"
+import { TbPhone } from "react-icons/tb";
 
-export default function SzolgaltatasInner({ image, title, l1, l2, l3, l4, l5, l6 }) {
+export default function SzolgaltatasInner({ image, title, l1, l2, l3, l4, l5, l6, tel }) {
   // Define variants for the image zoom effect
   const imageVariants = {
     initial: { scale: 1 },
@@ -43,7 +45,7 @@ export default function SzolgaltatasInner({ image, title, l1, l2, l3, l4, l5, l6
           {l5 && <li className="ml-6"><Par>{l5}</Par></li>}
           {l6 && <li className="ml-6"><Par>{l6}</Par></li>}
         </ul>
-        
+        <a href={`tel:${tel}`} className="flex flex-nowrap gap-1 items-center px-4 py-2 rounded-full text-black bg-[--yellow] w-fit hover:bg-[--yellowhover]"><TbPhone className="w-5 h-5"/>{tel}</a>
       </div>
     </motion.div>
   );
