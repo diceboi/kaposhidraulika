@@ -26,7 +26,7 @@ export default function Szolgaltatasok() {
           <SzolgaltatasInner image={'/gumijavitas.webp'} title={'Gumi javítás'} l1={'Tehergépkocsik és személygépkocsik gumiszerelése'} l2={'Gumi szerviz, gumicsere'} l3={'Felnik homokfúvása'} l4={'Új és használt gumik értékesítése'} tel={'06300929202'}/>
           <SzolgaltatasInner image={'/epitoiparigepek.webp'} title={'Építőipari gépek teljes körű javítása'} l1={'Motor javítás'} l2={'Hidraulika javítás'} l3={'Vonalbafúrás, csapszegezés, perselyezés'} tel={'06309398591'}/>
           <SzolgaltatasInner image={'/mezogazdasagigepek.webp'} title={'Mezőgazdasági és erdészeti gépek teljes körű javítása'} l1={'Motor javítás'} l2={'Hidraulika javítás'} l3={'Vonalbafúrás, csapszegezés, perselyezés'} tel={'06309398591'}/>
-          <SzolgaltatasInner image={'/targoncajavitas.webp'} title={'Targonca javítás'} l1={'Teljeskörű javítás'} l2={'Szervíz'} l3={'Karbantartás'} tel={'06309398591'}/>
+          <SzolgaltatasInner image={'/targoncajavitas.webp'} title={'Targonca javítás'} l1={'Teljeskörű javítás'} l2={'Szerviz'} l3={'Karbantartás'} tel={'06309398591'}/>
         </div>
         <div className="flex lg:flex-row flex-col lg:gap-16 gap-8 justify-center w-full m-auto bg-[--lightgrey] rounded-3xl lg:p-8 p-4">
         <div className="flex lg:flex-row flex-col lg:gap-16 gap-8 justify-center self-center">
